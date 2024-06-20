@@ -1,0 +1,18 @@
+import { conexionAPI } from "./conexionAPI.js"
+
+
+const formulario = document.querySelector("[data-formulario]")
+
+async function crearProducto(evento){
+
+    evento.preventDefault();
+
+    const nombre = document.querySelector("[data-nombre]").value;
+    const Precio = document.querySelector("[data-precio]").value;
+    const imagen = document.querySelector("[data-imagen]").value;
+
+    await conexionAPI.enviarProducto(nombre, Precio,imagen);
+
+}
+
+formulario.addEventListener("submit", evento => crearProducto(evento));
