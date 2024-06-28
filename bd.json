@@ -1,28 +1,10 @@
 {
   "productos": [
     {
-      "id": "7c09",
-      "nombre": "muñeco lego",
-      "Precio": "$78,99",
-      "imagen": "https://cdn-icons-png.flaticon.com/256/1674/1674412.png"
-    },
-    {
-      "id": "2c42",
-      "nombre": "Astronauta",
-      "Precio": "$34,99",
-      "imagen": "https://i.pinimg.com/564x/dc/ec/a3/dceca3778a2a7f2d9f3937ff5c5402f6.jpg"
-    },
-    {
-      "id": "a628",
-      "nombre": "Libreta",
+      "id": "b47f",
+      "nombre": "balon",
       "Precio": "$25,99",
       "imagen": "https://i.pinimg.com/564x/55/e4/83/55e483e26a4d63b9b561b8ccf7d3dd81.jpg"
-    },
-    {
-      "id": "5837",
-      "nombre": "Zapatillas",
-      "Precio": "$98,99",
-      "imagen": "https://i.pinimg.com/564x/f6/82/bc/f682bc181ee3c18a09f5d7675a995507.jpg"
     }
   ]
 }
